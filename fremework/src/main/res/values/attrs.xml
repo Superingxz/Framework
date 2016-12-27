@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--昼夜模式主色调-->
+<attr name="dayNightBackground" format="color|reference" />
+<attr name="dayNightOneTextColor" format="color|reference" />
+<attr name="dayNightTwoTextColor" format="color|reference" />
+<attr name="dayNightThreeTextColor" format="color|reference" />
+<attr name="dayNightBackgroundDrawable" format="color|reference" />
+
+<declare-styleable name="DayNightMode">
+    <attr name="dayNightBackgroundAttr" format="string|reference"/><!--切换背景属性-->
+    <attr name="dayNightOneTextColorAttr" format="string|reference"/><!--切换一级字体颜色属性-->
+    <attr name="dayNightTwoTextColorAttr" format="string|reference"/><!--切换二级字体颜色属性-->
+    <attr name="dayNightThreeTextColorAttr" format="string|reference"/><!--切换三级字体颜色属性-->
+    <attr name="dayNightBackgroundDrawableAttr" format="string|reference"/><!--切换背景图片属性-->
+</declare-styleable>
+    <!-- 通用Loading -->
+    <declare-styleable name="LoadingProgressViewStyle">
+        <attr name="lpvs_progress" format="float" />
+        <attr name="lpvs_maxProgress" format="float" />
+        <attr name="lpvs_animDuration" format="integer" />
+        <attr name="lpvs_animSwoopDuration" format="integer" />
+        <attr name="lpvs_animSyncDuration" format="integer" />
+        <attr name="lpvs_color" format="color"/>
+        <attr name="lpvs_thickness" format="dimension"/>
+        <attr name="lpvs_indeterminate" format="boolean" />
+        <attr name="lpvs_animAutostart" format="boolean" />
+        <attr name="lpvs_animSteps" format="integer" />
+    </declare-styleable>
+</resources>
